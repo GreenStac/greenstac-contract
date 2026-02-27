@@ -280,7 +280,7 @@
       )
       (if (get success result)
         (begin
-          (match memo m (print m) none)
+          (print memo)
           (ok true)
         )
         err-not-credit-owner
