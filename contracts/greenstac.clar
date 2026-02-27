@@ -229,7 +229,7 @@
         credits-issued: amount,
         credits-retired: u0,
         vintage-year: vintage-year,
-        issuance-block: block-height,
+        issuance-block: burn-block-height,
         metadata-uri: batch-metadata-uri,
         status: "ACTIVE"
       })
@@ -344,7 +344,7 @@
             credit-ids: credit-ids,
             retiree: tx-sender,
             reason: reason,
-            retired-at: block-height,
+            retired-at: burn-block-height,
             tonnes-offset: amount,
             beneficiary: beneficiary,
             certificate-uri: certificate-uri
